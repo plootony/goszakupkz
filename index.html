@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta name="description" content="Портал государственных закупок">
     <meta name="keywords" content="портал,государственных,закупок">
@@ -8,26 +9,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <title>Государственные закупки Республики Казахстан</title>
 </head>
+
 <body>
-    <main>
-        <div class="container"> 
+    <main class="page">
+        <span class="page-preloader"></span><!-- page-preloader -->
+        <div class="container">
             <header class="page-header">
-                <div class="header-top"></div><!-- /header-top -->
-                <div class="header-info"></div><!-- /header-info -->
+                <div class="header-top">
+                    <ul class="header-top__links">
+                        <li><span class="header-top__link ">23.11.2022 &nbsp; &nbsp; &nbsp;  Астана - 23:01:39</span></li>
+                        <li><a class="header-top__link" href="#">KZ</a></li>
+                        <li><a class="header-top__link" href="#">RU</a></li>
+                        <li><a class="header-top__link" href="#">EN</a></li>
+                    </ul><!-- header-top__links -->
+                </div><!-- header-top -->
+                <div class="header-content">
+                    <div class="header-logo">
+                        <a href="/"><img class="img-responsive" src="img/logo.png" alt="Логотип компании" width="298" height="123"></a>
+                    </div><!-- header-logo -->
+                    <div class="header-info">
+                        
+
+                        <ul class="header-info__links">
+                            <li><a class="header-info__link" href="#"><i class="lar la-question-circle"></i>Часто задаваемые вопросы</a></li>
+                            <li><a class="header-info__link" href="tel:88000803437"><i class="las la-phone"></i>8-800-080-34-37 (бесплатно по РК)</a></li>
+                            <li><span class="header-info__link"><i class="las la-clock"></i>24/7 (без выходных)</span></li>
+                        </ul><!-- header-info__links -->
+                        <ul class="header-info__links">
+                            <li><a class="header-info__link" href="mailto:support@ecc.kz"><i class="las la-envelope"></i>support@ecc.kz</a></li>
+                            <li><a class="header-info__link" href="mailto:forum.ecc.kz"><i class="las la-user-friends"></i>forum.ecc.kz</a></li>
+                        </ul><!-- header-info__links -->
+                    </div><!-- header-info -->
+                </div><!-- header-content -->
                 <nav>
                     <ul class="header-menu">
-                        <li><a class="header-menu__link" href="#">Новости</a></li>
-                        <li><a class="header-menu__link" href="#">Справка</a></li>
-                        <li><a class="header-menu__link" href="#">Реестры</a></li>
-                        <li><a class="header-menu__link" href="#">Конкурс</a></li>
-                        <li><a class="header-menu__link" href="#">Договоры</a></li>
+                        <li><a class="header-menu__link" href="/"><i class="las la-home"></i></a></li>
+                        <li><a class="header-menu__link" href="#"><i class="las la-newspaper"></i>Новости</a></li>
+                        <li><a class="header-menu__link" href="#"><i class="las la-question"></i>Справка</a></li>
+                        <li><a class="header-menu__link" href="#"><i class="las la-layer-group"></i>Реестры</a></li>
+                        <li><a class="header-menu__link" href="#"><i class="las la-trophy"></i>Конкурс</a></li>
+                        <li><a class="header-menu__link" href="#"><i class="las la-handshake"></i>Договоры</a></li>
                     </ul>
+                    <a class="header-menu__link btn-login" href="#"><i class="las la-sign-in-alt"></i>Войти</a>
                 </nav>
             </header><!-- page-header -->
-        </div><!-- /container -->
+        </div><!-- container -->
     </main>
-    
+
 </body>
+
 </html>
