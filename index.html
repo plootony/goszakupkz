@@ -45,10 +45,23 @@
                     </div><!-- header-info -->
                 </div><!-- header-content -->
                 <nav>
-                    <ul class="header-menu hidden-xs">
-                        <li><a class="header-menu__link" href="/"><i class="las la-home"></i></a></li>
+                    <ul class="header-menu">
+                        <li><a class="header-menu__link hidden-xs" href="/"><i class="las la-home"></i></a></li>
                         <li><a class="header-menu__link" href="#"><i class="las la-newspaper"></i>Новости</a></li>
-                        <li><a class="header-menu__link dropdown-toggle" href="#"><i class="las la-question"></i>Справка</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="header-menu__link btn-dropdown"><i class="las la-question"></i>Справка</button>
+                                <ul class="dropdown-content">
+                                    <li><a class="header-menu__link" href="#">Link 1</a></li>
+                                    <li><a class="header-menu__link" href="#">Link 1</a></li>
+                                    <li><a class="header-menu__link" href="#">Link 1</a></li>
+                                    <li><a class="header-menu__link" href="#">Link 1</a></li>
+                                    <li><a class="header-menu__link" href="#">Link 1</a></li>
+                                </ul><!-- dropdown-content -->
+                            </div><!-- dropdown -->
+                            
+                        
+                        </li>
                         <li><a class="header-menu__link" href="#"><i class="las la-layer-group"></i>Реестры</a></li>
                         <li><a class="header-menu__link" href="#"><i class="las la-trophy"></i>Конкурс</a></li>
                         <li><a class="header-menu__link" href="#"><i class="las la-handshake"></i>Договоры</a></li>
@@ -61,9 +74,9 @@
                 <div class="left-side">
                     <section class="welcome">
                         <h1 class="welcome__title">Добро пожаловать!</h1>
-                        <p class="alert alert-danger">Ошибка</p>
+                        <!-- <p class="alert alert-danger">Ошибка</p>
                         <p class="alert alert-success">Успех</p>
-                        <p class="alert alert-warning">Внимание</p>
+                        <p class="alert alert-warning">Внимание</p> -->
                         <p>Мы рады приветствовать Вас на Веб-портале государственных закупок Республики Казахстан. Система предоставляет единую точку доступа к электронным услугам в сфере государственных закупок и позволяет осуществлять участие в государственных закупках в качестве заказчика, организатора и поставщика с любого компьютера подключенного к сети Интернет.</p>
                     </section><!-- welcome -->
                     <section class="update">
