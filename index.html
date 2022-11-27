@@ -50,7 +50,7 @@
                         <li><a class="header-menu__link" href="#"><i class="las la-newspaper"></i>Новости</a></li>
                         <li>
                             <div class="dropdown">
-                                <button class="header-menu__link btn-dropdown"><i class="las la-question"></i>Справка</button>
+                                <a class="header-menu__link btn-dropdown" href="#" >  <i class="las la-question"></i>Справка <span class="dropdown-ico"><i class="las la-angle-down"></i></span></a>
                                 <ul class="dropdown-content">
                                     <li><a class="header-menu__link" href="#">Link 1</a></li>
                                     <li><a class="header-menu__link" href="#">Link 1</a></li>
@@ -59,8 +59,6 @@
                                     <li><a class="header-menu__link" href="#">Link 1</a></li>
                                 </ul><!-- dropdown-content -->
                             </div><!-- dropdown -->
-                            
-                        
                         </li>
                         <li><a class="header-menu__link" href="#"><i class="las la-layer-group"></i>Реестры</a></li>
                         <li><a class="header-menu__link" href="#"><i class="las la-trophy"></i>Конкурс</a></li>
@@ -241,7 +239,15 @@
                 } else {
                     partnersMoreBtn.innerHTML = 'Посмотреть все';
                 }
-            }); 
+            });
+            
+            const menuSubBtn = document.querySelector('.dropdown-ico');
+            const menuSub = document.querySelector('.dropdown');
+
+            menuSubBtn.addEventListener("click", function(){ 
+                menuSub.classList.toggle('open');
+            });
+
         });
     </script>
 </body>
