@@ -482,6 +482,10 @@ nav {
         background-color: transparent;
     }
 
+    nav {
+        flex-direction: column;
+    }
+
     .btn-menu {
         padding: 15px;
         color: white;
